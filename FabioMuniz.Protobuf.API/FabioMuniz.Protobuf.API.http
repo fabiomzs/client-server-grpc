@@ -1,0 +1,6 @@
+@FabioMuniz.Protobuf.API_HostAddress = http://localhost:5168
+
+GET {{FabioMuniz.Protobuf.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

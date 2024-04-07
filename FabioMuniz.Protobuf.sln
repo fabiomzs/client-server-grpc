@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabioMuniz.Protobuf.API", "FabioMuniz.Protobuf.API\FabioMuniz.Protobuf.API.csproj", "{73726128-D202-48F0-8A05-ECDFEE2D2947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabioMuniz.Protobuf.Blazor", "FabioMuniz.Protobuf.Blazor\FabioMuniz.Protobuf.Blazor.csproj", "{242B7980-9A42-49E6-8473-598C026A7114}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73726128-D202-48F0-8A05-ECDFEE2D2947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73726128-D202-48F0-8A05-ECDFEE2D2947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73726128-D202-48F0-8A05-ECDFEE2D2947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73726128-D202-48F0-8A05-ECDFEE2D2947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242B7980-9A42-49E6-8473-598C026A7114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242B7980-9A42-49E6-8473-598C026A7114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242B7980-9A42-49E6-8473-598C026A7114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242B7980-9A42-49E6-8473-598C026A7114}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4366FC48-351F-4CDD-B3BA-B79FB00D2E62}
+	EndGlobalSection
+EndGlobal

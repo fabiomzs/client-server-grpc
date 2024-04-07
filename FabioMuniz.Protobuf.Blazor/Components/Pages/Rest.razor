@@ -1,0 +1,20 @@
+﻿@page "/rest"
+@rendermode InteractiveServer
+@inject ICarService carService
+
+<PageTitle>RESTful</PageTitle>
+
+<div class="alert alert-primary" role="alert">
+	<strong>CARS</strong> RESTful
+</div>
+
+<CarList Cars="cars" />
+
+@code {
+	private IEnumerable<Car>? cars;
+
+	protected override async Task OnInitializedAsync()
+	{
+		cars = await carService.GetAllCars();
+	}
+}

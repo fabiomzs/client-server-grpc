@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "FabioMuniz.Protobuf.API.Services.gRPC";
+
+package CarAPI;
+
+service CarGrpc {
+	rpc GetAllCars(CarRequest) returns (CarResponse) {}
+}
+
+message CarRequest {
+
+}
+
+message CarResponse {
+	repeated Cars data = 1;
+}
+
+message Cars {
+
+	string model = 1;
+	string fuel = 2;
+	string manufacturer = 3;
+	string type = 4;
+	string vin = 5;
+}

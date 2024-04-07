@@ -1,0 +1,35 @@
+﻿@if (Cars is null)
+{
+	<p><em>Loading...</em></p>
+}
+else
+{
+	<table class="table table-hover table-striped table-sm">
+		<thead>
+			<tr>
+				<th>Model</th>
+				<th>Fuel</th>
+				<th>Manufacturer</th>
+				<th>Type</th>
+				<th>VIN</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var car in Cars)
+			{
+				<tr>
+					<td>@car.Model</td>
+					<td>@car.Fuel</td>
+					<td>@car.Manufacturer</td>
+					<td>@car.Type</td>
+					<td>@car.Vin</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@code {
+	[Parameter]
+	public IEnumerable<Car>? Cars { get; set; } = Enumerable.Empty<Car>();
+}
